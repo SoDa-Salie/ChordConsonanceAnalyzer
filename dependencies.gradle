@@ -1,0 +1,22 @@
+ext.versions = [
+        lifecycle: '2.3.1',
+]
+
+ext.libs = [
+        constraintLayout  : "androidx.constraintlayout:constraintlayout:2.0.4",
+        material          : "com.google.android.material:material:1.4.0",
+        fragment          : "androidx.fragment:fragment-ktx:1.3.5",
+        coroutines        : "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.6",
+        appcompat         : "androidx.appcompat:appcompat:1.3.1",
+        activity          : "androidx.activity:activity:1.3.1",
+        androidxCore      : "androidx.core:core:1.6.0",
+        coreKtx           : "androidx.core:core-ktx:1.6.0",
+        rxjava3           : "io.reactivex.rxjava3:rxjava:3.1.1",
+
+        // Lifecycle
+        lifecycleViewModel: "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle",
+        lifecycleLiveData : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifecycle",
+        lifecycleCompiler : "androidx.lifecycle:lifecycle-compiler:$versions.lifecycle",
+
+        cicerone          : "com.github.terrakok:cicerone:7.1"
+]

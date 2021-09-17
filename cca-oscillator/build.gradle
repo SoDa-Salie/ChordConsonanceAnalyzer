@@ -1,0 +1,16 @@
+apply plugin: 'kotlin'
+
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://clojars.org/repo/"
+    }
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.13'
+    implementation 'org.decimal4j:decimal4j:1.0.3'
+    implementation 'com.jsyn:jsyn:20170815'
+}

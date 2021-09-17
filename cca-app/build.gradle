@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        applicationId "ru.sodajl.chordconsonanceanalyzer"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        proguardFiles 'proguard-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude("META-INF/*.kotlin_module")
+        exclude("**.kotlin_builtins")
+        exclude("**.kotlin_metadata")
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    implementation libs.constraintLayout
+    implementation libs.androidxCore
+    implementation libs.fragment
+    implementation libs.rxjava3
+    implementation group: 'com.jsyn', name: 'jsyn', version: '20170815'
+
+    /*implementation libs.coreKtx*/
+    /*implementation libs.lifecycleViewModel
+    implementation libs.lifecycleLiveData
+
+    implementation libs.lifecycleCompiler*/
+
+    /*implementation libs.material*/
+    /*implementation libs.cicerone*/
+    /*androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'*/
+
+
+    implementation project(':cca-oscillator')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+}
+
