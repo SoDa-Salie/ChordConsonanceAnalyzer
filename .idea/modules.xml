@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChordConsonanceAnalyzer.iml" filepath="$PROJECT_DIR$/.idea/modules/ChordConsonanceAnalyzer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cca-app/ChordConsonanceAnalyzer.cca-app.iml" filepath="$PROJECT_DIR$/.idea/modules/cca-app/ChordConsonanceAnalyzer.cca-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cca-math/ChordConsonanceAnalyzer.cca-math.iml" filepath="$PROJECT_DIR$/.idea/modules/cca-math/ChordConsonanceAnalyzer.cca-math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cca-math/ChordConsonanceAnalyzer.cca-math.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cca-math/ChordConsonanceAnalyzer.cca-math.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cca-math/ChordConsonanceAnalyzer.cca-math.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cca-math/ChordConsonanceAnalyzer.cca-math.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cca-oscillator/ChordConsonanceAnalyzer.cca-oscillator.iml" filepath="$PROJECT_DIR$/.idea/modules/cca-oscillator/ChordConsonanceAnalyzer.cca-oscillator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cca-oscillator/ChordConsonanceAnalyzer.cca-oscillator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cca-oscillator/ChordConsonanceAnalyzer.cca-oscillator.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cca-oscillator/ChordConsonanceAnalyzer.cca-oscillator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cca-oscillator/ChordConsonanceAnalyzer.cca-oscillator.test.iml" />

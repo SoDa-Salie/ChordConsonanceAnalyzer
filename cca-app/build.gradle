@@ -48,15 +48,16 @@ dependencies {
     implementation libs.fragment
     implementation libs.rxjava3
     implementation group: 'com.jsyn', name: 'jsyn', version: '20170815'
-
+    implementation libs.cicerone
+    
     /*implementation libs.coreKtx*/
     /*implementation libs.lifecycleViewModel
     implementation libs.lifecycleLiveData
 
+
     implementation libs.lifecycleCompiler*/
 
     /*implementation libs.material*/
-    /*implementation libs.cicerone*/
     /*androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'*/
 
 

@@ -60,7 +60,9 @@
     <output-test url="file://$MODULE_DIR$/../../../cca-oscillator/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../cca-oscillator/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../cca-oscillator/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../cca-oscillator/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../cca-oscillator/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
