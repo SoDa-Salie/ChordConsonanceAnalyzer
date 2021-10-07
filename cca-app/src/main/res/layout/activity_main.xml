@@ -5,7 +5,7 @@
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	tools:context=".MainActivity"
+	tools:context=".viewcontainers.MainContainer"
 	android:background="#F0F0F0" >
 
 	<Button
@@ -69,5 +69,15 @@
 		app:layout_constraintTop_toBottomOf="@+id/btn_decrease_frequency"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent" />
+
+	<fragment
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_width="300dp"
+		android:layout_height="20dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintBottom_toTopOf="@+id/btn_play" >
+
+	</fragment >
 
 </androidx.constraintlayout.widget.ConstraintLayout >

@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 30
@@ -12,6 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         proguardFiles 'proguard-rules.pro'
     }
@@ -32,6 +34,7 @@ android {
 
     buildFeatures {
         viewBinding true
+        compose true
     }
 
     compileOptions {
@@ -41,28 +44,66 @@ android {
 }
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
-    implementation libs.constraintLayout
-    implementation libs.androidxCore
-    implementation libs.fragment
-    implementation libs.rxjava3
-    implementation group: 'com.jsyn', name: 'jsyn', version: '20170815'
-    implementation libs.cicerone
-    
-    /*implementation libs.coreKtx*/
-    /*implementation libs.lifecycleViewModel
-    implementation libs.lifecycleLiveData
-
-
-    implementation libs.lifecycleCompiler*/
-
-    /*implementation libs.material*/
-    /*androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'*/
-
 
     implementation project(':cca-oscillator')
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+
+    implementation  "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    implementation  "androidx.appcompat:appcompat:$versions.appcompat"
+
+    implementation "androidx.activity:activity:$versions.activity"
+
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidJunit"
+
+    implementation "androidx.core:core:$versions.androidxCore"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+
+    runtimeOnly "androidx.core:core-ktx:$versions.coreKtx"
+
+    implementation "com.github.terrakok:cicerone:$versions.cicerone"
+
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraintLayout"
+
+    implementation "com.google.dagger:dagger:$versions.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.dagger"
+    /*implementation "com.google.dagger:dagger-android:$versions.dagger"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$versions.dagger"*/
+
+    /*androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espresso"*/
+
+    implementation "androidx.fragment:fragment-ktx:$versions.fragment"
+
+    implementation "io.reactivex.rxjava3:rxjava:$versions.rxjava3"
+
+    implementation "com.hwangjr.rxbus:rxbus:$versions.rxbus"
+
+
+
+    implementation "com.jakewharton.timber:timber:5.0.1"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.4"
+
+    implementation "androidx.compose.ui:ui:1.1.0-alpha05"
+
+
+
+    implementation "com.google.android.material:material:$versions.material"
+
+    implementation "com.github.moxy-community:moxy:$versions.moxy"
+    implementation "com.github.moxy-community:moxy-androidx:$versions.moxy"
+    kapt "com.github.moxy-community:moxy-compiler:$versions.moxy"
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
+
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifecycle"
+
+    implementation "androidx.lifecycle:lifecycle-compiler:$versions.lifecycle"
+
+    implementation "com.jsyn:jsyn:$versions.jsyn"
+
+    testImplementation "junit:junit:$versions.junit"
 }
 

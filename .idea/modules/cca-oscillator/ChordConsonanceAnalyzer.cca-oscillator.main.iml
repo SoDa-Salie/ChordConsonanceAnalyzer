@@ -59,19 +59,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21">
-        <CLASSES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.21/6b3de2a43405a65502728047db37a98a0c7e72f0/kotlin-stdlib-jdk8-1.5.21.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.21/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk8-1.5.21-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.21/171265ccd1f7a4307c3cb8eedd9115e662013190/kotlin-stdlib-jdk8-1.5.21-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21" level="project" />
     <orderEntry type="library" name="Gradle: org.decimal4j:decimal4j:1.0.3" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: com.jsyn:jsyn:20170815">
@@ -82,32 +70,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.21">
-        <CLASSES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.21/f059658740a4b3a3461aba9681457615332bae1c/kotlin-stdlib-jdk7-1.5.21.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.21/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-jdk7-1.5.21-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.21/ccdfdab71f0f3ba104191d8f673d0620e7ed2e46/kotlin-stdlib-jdk7-1.5.21-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.21">
-        <CLASSES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib/1.5.21/2f537cad7e9eeb9da73738c8812e1e4cf9b62e4e/kotlin-stdlib-1.5.21.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib/1.5.21/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-1.5.21-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib/1.5.21/d41ae480a601539cdacfc650d1cc60549ade0ca7/kotlin-stdlib-1.5.21-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.21" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: org.jetbrains:annotations:13.0">
         <CLASSES>
@@ -121,18 +85,6 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21">
-        <CLASSES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.21/cc8bf3586fd2ebcf234058b9440bb406e62dfacb/kotlin-stdlib-common-1.5.21.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.21/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-common-1.5.21-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$GRADLE_LOCAL_REPO$/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.21/64f0dd5eac2d479a65bc077185d9a8f661c948fe/kotlin-stdlib-common-1.5.21-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21" level="project" />
   </component>
 </module>
